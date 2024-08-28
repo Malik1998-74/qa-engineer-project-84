@@ -1,0 +1,26 @@
+---
+- summary: |
+    Проверка функции перевода страницы
+  requirement: |
+    Убедиться в работе кнопки 'Language' перевода страницы
+  prerequisites: |
+    no-data
+  test-data: no-data
+  step:
+    - Нажать на кнопку 'Language'
+  expected-result: |
+    Осуществляется перевод страницы на другой язык
+
+- summary: |
+    Проверка добавления товара в корзину
+  requirement: |
+    Убедиться в работе кнопки 'Add to card'
+  prerequisites: |
+    no-data
+  test-data: no-data
+  step:
+   - Выбрать лбой товар из предложанных
+   - Нажать на кнопку 'Add to cat'
+  expected-result: |
+    Возле кнопки Cart должна появится цисло указывающая на 
+    колицество товара в корзине
