@@ -42,11 +42,11 @@ test-cases:
   
   - summary: |
       Фильтрация товара по наличию
-    status: fail
+    status: pass
   
   - summary: |
       Фильтрация товара по цене
-    status: fail
+    status: pass
   
   - summary: |
       Пользователь не может добавить товар в корзину больше чем в наличии
@@ -58,7 +58,7 @@ test-cases:
  
   - summary: |
       Сайт должен иметь мобильную версию
-    status: fail
+    status: pass
  
   - summary: |
       Добавления товара которого нет в наличии
