@@ -38,7 +38,7 @@ test-cases:
   
   - summary: |
       Фильтрация товара по бренду
-    status: fail
+    status: pass
   
   - summary: |
       Фильтрация товара по наличию
