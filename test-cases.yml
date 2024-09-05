@@ -127,7 +127,6 @@
   test-data: no-data
   steps:
     - Выбрать бренд
-    - Нажать 'Previous'
   expected-result: |
     Товар от сортируется по бренду
     
