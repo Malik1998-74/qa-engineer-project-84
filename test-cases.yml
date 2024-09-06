@@ -6,7 +6,7 @@
   prerequisites: |
     no-data
   test-data: no-data
-  step:
+  steps:
     - Нажать на кнопку 'Language'
   expected-result: |
     Локаль успешно поменялась 
@@ -18,7 +18,7 @@
   prerequisites: |
     no-data
   test-data: no-data
-  step:
+  steps:
     - Выбрать товар из предложенных
     - Нажать на кнопку 'Add to cat'
   expected-result: |
@@ -156,7 +156,7 @@
     
 - summary: |
     Пользователь не может добавить товар в корзину больше чем в наличии
-  requirement: >
+  requirement: |
     Убедиться, что пользователь не может добавить товар в корзину
     больше чем в наличии
   prerequisites: |
